@@ -105,10 +105,7 @@ export default function Home() {
                     <div className="font-rajdhani">
                       <ul className="divide-y divide-gray-200 dark:divide-gray-700">
                         <li className="pb-3 pt-3 sm:pb-4">
-                            <div className="flex items-center space-x-72">
-                              <div className="flex-shrink-0">
-                                  <img className="w-48 h-48" src="https://www.w3schools.com/w3images/avatar2.png" alt="Neil image"/>
-                              </div>
+                            <div className="flex items-center">
                               <div className="inline-flex-1 text-3xl">
                                   <p className="font-semibold text-gray-900 truncate dark:text-dark">
                                     Bookshelf-API
@@ -120,10 +117,7 @@ export default function Home() {
                             </div>
                         </li>
                         <li className="pb-3 pt-3 sm:pb-4">
-                            <div className="flex items-center space-x-72">
-                              <div className="flex-shrink-0">
-                                  <img className="w-48 h-48" src="https://www.w3schools.com/w3images/avatar2.png" alt="Neil image"/>
-                              </div>
+                            <div className="flex items-center">
                               <div className="inline-flex-1 text-3xl">
                                   <p className="font-semibold text-gray-900 truncate dark:text-dark">
                                     POS-API
