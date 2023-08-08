@@ -109,7 +109,14 @@ export default function Home() {
                     src="https://www.w3schools.com/w3images/avatar2.png"
                     alt=""
                   />
-                  <div className="absolute bottom-0 left-0 w-full p-2.5"></div>
+                  <div className="absolute bottom-0 left-0 w-full p-2.5">
+                    <div className="p-5 w-full bg-white rounded-md">
+                      <h2 className="font-heading font-bold text-lg text-gray-900">
+                        Point Of Sale - API
+                      </h2>
+                      <p className="text-sm text-gray-600">www.example.com</p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="w-full md:w-1/2 xl:w-1/4 p-3">
@@ -119,7 +126,14 @@ export default function Home() {
                     src="https://www.w3schools.com/w3images/avatar2.png"
                     alt=""
                   />
-                  <div className="absolute bottom-0 left-0 w-full p-2.5"></div>
+                  <div className="absolute bottom-0 left-0 w-full p-2.5">
+                    <div className="p-5 w-full bg-white rounded-md">
+                      <h2 className="font-heading font-bold text-lg text-gray-900">
+                        Bookshelf - API
+                      </h2>
+                      <p className="text-sm text-gray-600">www.example.com</p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="w-full md:w-1/2 xl:w-1/4 p-3">
@@ -129,7 +143,16 @@ export default function Home() {
                     src="https://www.w3schools.com/w3images/avatar2.png"
                     alt=""
                   />
-                  <div className="absolute bottom-0 left-0 w-full p-2.5"></div>
+                  <div className="absolute bottom-0 left-0 w-full p-2.5">
+                    <div className="absolute bottom-0 left-0 w-full p-2.5">
+                      <div className="p-5 w-full bg-white rounded-md">
+                        <h2 className="font-heading font-bold text-lg text-gray-900">
+                          Payment Gateway
+                        </h2>
+                        <p className="text-sm text-gray-600">www.example.com</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="w-full md:w-1/2 xl:w-1/4 p-3">
@@ -139,47 +162,14 @@ export default function Home() {
                     src="https://www.w3schools.com/w3images/avatar2.png"
                     alt=""
                   />
-                  <div className="absolute bottom-0 left-0 w-full p-2.5"></div>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 xl:w-1/4 p-3">
-                <div className="flex flex-col justify-end h-full relative bg-gradient-cyan overflow-hidden rounded-10">
-                  <img
-                    className="mx-auto w-full"
-                    src="https://www.w3schools.com/w3images/avatar2.png"
-                    alt=""
-                  />
-                  <div className="absolute bottom-0 left-0 w-full p-2.5"></div>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 xl:w-1/4 p-3">
-                <div className="flex flex-col justify-end h-full relative bg-gradient-cyan overflow-hidden rounded-10">
-                  <img
-                    className="mx-auto w-full"
-                    src="https://www.w3schools.com/w3images/avatar2.png"
-                    alt=""
-                  />
-                  <div className="absolute bottom-0 left-0 w-full p-2.5"></div>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 xl:w-1/4 p-3">
-                <div className="flex flex-col justify-end h-full relative bg-gradient-cyan overflow-hidden rounded-10">
-                  <img
-                    className="mx-auto w-full"
-                    src="https://www.w3schools.com/w3images/avatar2.png"
-                    alt=""
-                  />
-                  <div className="absolute bottom-0 left-0 w-full p-2.5"></div>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 xl:w-1/4 p-3">
-                <div className="flex flex-col justify-end h-full relative bg-gradient-cyan overflow-hidden rounded-10">
-                  <img
-                    className="mx-auto w-full"
-                    src="https://www.w3schools.com/w3images/avatar2.png"
-                    alt=""
-                  />
-                  <div className="absolute bottom-0 left-0 w-full p-2.5"></div>
+                  <div className="absolute bottom-0 left-0 w-full p-2.5">
+                    <div className="p-5 w-full bg-white rounded-md">
+                      <h2 className="font-heading font-bold text-lg text-gray-900">
+                        Wedding Invitation Website
+                      </h2>
+                      <p className="text-sm text-gray-600">www.example.com</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
