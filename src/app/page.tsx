@@ -40,9 +40,9 @@ export default function Home() {
               <a className="flex py-2 items-center space-x-2">
                 <img
                   className="w-24 h-24 object-cover rounded-full"
-                  src="https://www.w3schools.com/w3images/avatar2.png"
+                  src="../../icons/logo.png"
                 />
-                <span className="font-bold text-xl">Portofolio</span>
+                <span className="font-bold text-xl">Portfolio</span>
               </a>
             </Link>
             <nav className="hidden md:flex text-lg">
