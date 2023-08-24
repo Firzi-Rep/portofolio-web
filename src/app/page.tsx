@@ -95,84 +95,256 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
-        <section className="max-w-7xl py-6 mx-auto bg-white border border-gray-200 dark:border-gray-500 overflow-hidden">
-          <div className="container mx-auto px-4">
-            <h2 className="mb-8 font-heading font-semibold underline text-center text-4xl sm:text-4xl text-black">
-              Project
-            </h2>
-            <div className="flex flex-wrap -m-3">
-              <div className="w-full md:w-1/2 xl:w-1/4 p-3">
-                <div className="flex flex-col justify-end h-full relative bg-gradient-cyan overflow-hidden rounded-10">
-                  <img
-                    className="mx-auto"
-                    src="https://www.w3schools.com/w3images/avatar2.png"
-                    alt=""
-                  />
-                  <div className="absolute bottom-0 left-0 w-full p-2.5">
-                    <div className="p-5 w-full bg-white rounded-md">
-                      <h2 className="font-heading font-bold text-lg text-gray-900">
-                        Point Of Sale - API
-                      </h2>
-                      <p className="text-sm text-gray-600">www.example.com</p>
-                    </div>
+      <div className="">
+        <section className="border my-4 mx-4 border-gray-500">
+          <div className="flex justify-center items-center w-full">
+            <h1 className="font-bold text-4xl underline py-6">Project</h1>
+          </div>
+          {/* container card */}
+          <div className="w-full h-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-center gap-4">
+            {/* card start */}
+            <div className="my-4 flex justify-center">
+              <div className="lg:h-72 h-96 relative lg:w-72 w-96">
+                <img
+                  className="w-full h-full absolute left-0 top-0"
+                  src="../../icons/exampleapi.jpg"
+                  alt=""
+                  style={{ filter: 'blur(2px)' }}
+                />
+                <div className="w-full h-full bg-transparent flex flex-col items-center justify-between py-2 absolute">
+                  <div className="w-full px-2">
+                    <img src="../../icons/exampleapi.jpg" alt="" />
                   </div>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 xl:w-1/4 p-3">
-                <div className="flex flex-col justify-end h-full relative bg-gradient-cyan overflow-hidden rounded-10">
-                  <img
-                    className="mx-auto w-full"
-                    src="https://www.w3schools.com/w3images/avatar2.png"
-                    alt=""
-                  />
-                  <div className="absolute bottom-0 left-0 w-full p-2.5">
-                    <div className="p-5 w-full bg-white rounded-md">
-                      <h2 className="font-heading font-bold text-lg text-gray-900">
-                        Bookshelf - API
-                      </h2>
-                      <p className="text-sm text-gray-600">www.example.com</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 xl:w-1/4 p-3">
-                <div className="flex flex-col justify-end h-full relative bg-gradient-cyan overflow-hidden rounded-10">
-                  <img
-                    className="mx-auto w-full"
-                    src="https://www.w3schools.com/w3images/avatar2.png"
-                    alt=""
-                  />
-                  <div className="absolute bottom-0 left-0 w-full p-2.5">
-                    <div className="absolute bottom-0 left-0 w-full p-2.5">
-                      <div className="p-5 w-full bg-white rounded-md">
-                        <h2 className="font-heading font-bold text-lg text-gray-900">
-                          Payment Gateway
-                        </h2>
-                        <p className="text-sm text-gray-600">www.example.com</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 xl:w-1/4 p-3">
-                <div className="flex flex-col justify-end h-full relative bg-gradient-cyan overflow-hidden rounded-10">
-                  <img
-                    className="mx-auto w-full"
-                    src="https://www.w3schools.com/w3images/avatar2.png"
-                    alt=""
-                  />
-                  <div className="absolute bottom-0 left-0 w-full p-2.5">
-                    <div className="p-5 w-full bg-white rounded-md">
-                      <h2 className="font-heading font-bold text-lg text-gray-900">
-                        Wedding Invitation Website
-                      </h2>
-                      <p className="text-sm text-gray-600">www.example.com</p>
+                  <div className="w-full px-2">
+                    <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
+                      <h1 className="font-bold text-lg">Point Of Sale - Api</h1>
+                      <a
+                        href="../../icons/cert/sertifikat_js.pdf"
+                        className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
+                      >
+                        www.example.com
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            {/* card end */}
+            {/* card start */}
+            <div className="my-4 flex justify-center">
+              <div className="lg:h-72 h-96 relative lg:w-72 w-96">
+                <img
+                  className="w-full h-full absolute left-0 top-0"
+                  src="../../icons/exampleapi.jpg"
+                  alt=""
+                  style={{ filter: 'blur(2px)' }}
+                />
+                <div className="w-full h-full bg-transparent flex flex-col items-center justify-between py-2 absolute">
+                  <div className="w-full px-2">
+                    <img src="../../icons/exampleapi.jpg" alt="" />
+                  </div>
+                  <div className="w-full px-2">
+                    <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
+                      <h1 className="font-bold text-lg">Point Of Sale - Api</h1>
+                      <a
+                        href="../../icons/cert/sertifikat_js.pdf"
+                        className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
+                      >
+                        www.example.com
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* card end */}
+            {/* card start */}
+            <div className="my-4 flex justify-center">
+              <div className="lg:h-72 h-96 relative lg:w-72 w-96">
+                <img
+                  className="w-full h-full absolute left-0 top-0"
+                  src="../../icons/exampleapi.jpg"
+                  alt=""
+                  style={{ filter: 'blur(2px)' }}
+                />
+                <div className="w-full h-full bg-transparent flex flex-col items-center justify-between py-2 absolute">
+                  <div className="w-full px-2">
+                    <img src="../../icons/exampleapi.jpg" alt="" />
+                  </div>
+                  <div className="w-full px-2">
+                    <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
+                      <h1 className="font-bold text-lg">Point Of Sale - Api</h1>
+                      <a
+                        href="../../icons/cert/sertifikat_js.pdf"
+                        className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
+                      >
+                        www.example.com
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* card end */}
+            {/* card start */}
+            <div className="my-4 flex justify-center">
+              <div className="lg:h-72 h-96 relative lg:w-72 w-96">
+                <img
+                  className="w-full h-full absolute left-0 top-0"
+                  src="../../icons/exampleapi.jpg"
+                  alt=""
+                  style={{ filter: 'blur(2px)' }}
+                />
+                <div className="w-full h-full bg-transparent flex flex-col items-center justify-between py-2 absolute">
+                  <div className="w-full px-2">
+                    <img src="../../icons/exampleapi.jpg" alt="" />
+                  </div>
+                  <div className="w-full px-2">
+                    <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
+                      <h1 className="font-bold text-lg">Point Of Sale - Api</h1>
+                      <a
+                        href="../../icons/cert/sertifikat_js.pdf"
+                        className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
+                      >
+                        www.example.com
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* card end */}
+          </div>
+        </section>
+      </div>
+
+      <div className="">
+        <section className="border my-4 mx-4 border-gray-500">
+          <div className="flex justify-center items-center w-full">
+            <h1 className="font-bold text-4xl underline py-6">Certificate</h1>
+          </div>
+          {/* container card */}
+          <div className="w-full h-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-center gap-4">
+            {/* card start */}
+            <div className="my-4 flex justify-center">
+              <div className="lg:h-72 h-96 relative lg:w-72 w-96">
+                <img
+                  className="w-full h-full absolute left-0 top-0"
+                  src="https://www.w3schools.com/w3images/avatar2.png"
+                  alt=""
+                  style={{ filter: 'blur(2px)' }}
+                />
+                <div className="w-full h-full bg-transparent flex flex-col items-center justify-between py-2 absolute">
+                  <div className="w-full px-2">
+                    <img src="../../icons/cert/img/js.jpg" alt="" />
+                  </div>
+                  <div className="w-full px-2">
+                    <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
+                      <h1 className="font-bold text-lg">
+                        Basic Javascript Practice
+                      </h1>
+                      <a
+                        href="../../icons/cert/sertifikat_js.pdf"
+                        className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
+                      >
+                        View
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* card end */}
+            {/* card start */}
+            <div className="my-4 flex justify-center">
+              <div className="lg:h-72 h-96 relative lg:w-72 w-96">
+                <img
+                  className="w-full h-full absolute left-0 top-0"
+                  src="https://www.w3schools.com/w3images/avatar2.png"
+                  alt=""
+                  style={{ filter: 'blur(2px)' }}
+                />
+                <div className="w-full h-full bg-transparent flex flex-col items-center justify-between py-2 absolute">
+                  <div className="w-full px-2">
+                    <img src="../../icons/cert/img/js.jpg" alt="" />
+                  </div>
+                  <div className="w-full px-2">
+                    <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
+                      <h1 className="font-bold text-lg">
+                        Basic Javascript Practice
+                      </h1>
+                      <a
+                        href="../../icons/cert/sertifikat_js.pdf"
+                        className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
+                      >
+                        View
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* card end */}
+            {/* card start */}
+            <div className="my-4 flex justify-center">
+              <div className="lg:h-72 h-96 relative lg:w-72 w-96">
+                <img
+                  className="w-full h-full absolute left-0 top-0"
+                  src="https://www.w3schools.com/w3images/avatar2.png"
+                  alt=""
+                  style={{ filter: 'blur(2px)' }}
+                />
+                <div className="w-full h-full bg-transparent flex flex-col items-center justify-between py-2 absolute">
+                  <div className="w-full px-2">
+                    <img src="../../icons/cert/img/js.jpg" alt="" />
+                  </div>
+                  <div className="w-full px-2">
+                    <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
+                      <h1 className="font-bold text-lg">
+                        Basic Javascript Practice
+                      </h1>
+                      <a
+                        href="../../icons/cert/sertifikat_js.pdf"
+                        className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
+                      >
+                        View
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* card end */}
+            {/* card start */}
+            <div className="my-4 flex justify-center">
+              <div className="lg:h-72 h-96 relative lg:w-72 w-96">
+                <img
+                  className="w-full h-full absolute left-0 top-0"
+                  src="https://www.w3schools.com/w3images/avatar2.png"
+                  alt=""
+                  style={{ filter: 'blur(2px)' }}
+                />
+                <div className="w-full h-full bg-transparent flex flex-col items-center justify-between py-2 absolute">
+                  <div className="w-full px-2">
+                    <img src="../../icons/cert/img/js.jpg" alt="" />
+                  </div>
+                  <div className="w-full px-2">
+                    <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
+                      <h1 className="font-bold text-lg">
+                        Basic Javascript Practice
+                      </h1>
+                      <a
+                        href="../../icons/cert/sertifikat_js.pdf"
+                        className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
+                      >
+                        View
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* card end */}
           </div>
         </section>
       </div>
