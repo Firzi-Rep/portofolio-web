@@ -266,15 +266,15 @@ export default function Home() {
                 />
                 <div className="w-full h-full bg-transparent flex flex-col items-center justify-between py-2 absolute">
                   <div className="w-full px-2">
-                    <img src="../../icons/cert/img/js.jpg" alt="" />
+                    <img src="../../icons/cert/img/devops.jpg" alt="" />
                   </div>
                   <div className="w-full px-2">
                     <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
                       <h1 className="font-bold text-lg">
-                        Basic Javascript Practice
+                        Basic DevOps Practice
                       </h1>
                       <a
-                        href="../../icons/cert/sertifikat_js.pdf"
+                        href="../../icons/cert/sertifikat_DevOps.pdf"
                         className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
                       >
                         View
@@ -296,15 +296,15 @@ export default function Home() {
                 />
                 <div className="w-full h-full bg-transparent flex flex-col items-center justify-between py-2 absolute">
                   <div className="w-full px-2">
-                    <img src="../../icons/cert/img/js.jpg" alt="" />
+                    <img src="../../icons/cert/img/kotlin.jpg" alt="" />
                   </div>
                   <div className="w-full px-2">
                     <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
                       <h1 className="font-bold text-lg">
-                        Basic Javascript Practice
+                        Basic Kotlin Practice
                       </h1>
                       <a
-                        href="../../icons/cert/sertifikat_js.pdf"
+                        href="../../icons/cert/sertifikat_kotlin.pdf"
                         className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
                       >
                         View
@@ -326,15 +326,44 @@ export default function Home() {
                 />
                 <div className="w-full h-full bg-transparent flex flex-col items-center justify-between py-2 absolute">
                   <div className="w-full px-2">
-                    <img src="../../icons/cert/img/js.jpg" alt="" />
+                    <img src="../../icons/cert/img/backend.jpg" alt="" />
                   </div>
                   <div className="w-full px-2">
                     <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
                       <h1 className="font-bold text-lg">
-                        Basic Javascript Practice
+                        Basic Application Back-End
                       </h1>
                       <a
-                        href="../../icons/cert/sertifikat_js.pdf"
+                        href="../../icons/cert/sertifikat_backend.pdf"
+                        className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
+                      >
+                        View
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* card end */}
+
+            {/* card start */}
+            <div className="my-4 flex justify-center">
+              <div className="lg:h-72 h-96 relative lg:w-72 w-96">
+                <img
+                  className="w-full h-full absolute left-0 top-0"
+                  src="https://www.w3schools.com/w3images/avatar2.png"
+                  alt=""
+                  style={{ filter: 'blur(2px)' }}
+                />
+                <div className="w-full h-full bg-transparent flex flex-col items-center justify-between py-2 absolute">
+                  <div className="w-full px-2">
+                    <img src="../../icons/cert/img/sql.jpg" alt="" />
+                  </div>
+                  <div className="w-full px-2">
+                    <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
+                      <h1 className="font-bold text-lg">Basic SQL Practice</h1>
+                      <a
+                        href="../../icons/cert/sertifikat_sql.pdf"
                         className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
                       >
                         View
