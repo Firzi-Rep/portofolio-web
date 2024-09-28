@@ -73,10 +73,10 @@ export default function Home() {
         <div className="md:grid-cols-2 gap-4">
           <div className="bg-white border border-gray-200 rounded-lg shadow dark:border-gray-500">
             <div className="flex flex-col md:flex-row">
-              <img
+            <img
                 className="object-cover w-full md:w-60 rounded-t-lg h-96 md:h-auto md:rounded-none md:rounded-l-lg"
-                src="https://www.w3schools.com/w3images/avatar2.png"
-                alt=""
+                src="/me.png"
+                alt="Foto Ahimsya Firziawan"
               />
               <div className="flex flex-col items-center justify-center p-4 leading-normal">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-center md:text-left">
@@ -117,12 +117,12 @@ export default function Home() {
                   </div>
                   <div className="w-full px-2">
                     <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
-                      <h1 className="font-bold text-lg">Point Of Sale - Api</h1>
+                      <h1 className="font-bold text-lg">Accounting Event Website</h1>
                       <a
                         href="../../icons/cert/sertifikat_js.pdf"
                         className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
                       >
-                        www.example.com
+                        accountingfairpnj2023.online
                       </a>
                     </div>
                   </div>
@@ -145,12 +145,12 @@ export default function Home() {
                   </div>
                   <div className="w-full px-2">
                     <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
-                      <h1 className="font-bold text-lg">Point Of Sale - Api</h1>
+                      <h1 className="font-bold text-lg">Accounting Event Website</h1>
                       <a
                         href="../../icons/cert/sertifikat_js.pdf"
                         className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
                       >
-                        www.example.com
+                        accountingfairpnj2024.online
                       </a>
                     </div>
                   </div>
@@ -173,12 +173,12 @@ export default function Home() {
                   </div>
                   <div className="w-full px-2">
                     <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
-                      <h1 className="font-bold text-lg">Point Of Sale - Api</h1>
+                      <h1 className="font-bold text-lg">FiveM Game Scripting</h1>
                       <a
                         href="../../icons/cert/sertifikat_js.pdf"
                         className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
                       >
-                        www.example.com
+                        Game_Scripting
                       </a>
                     </div>
                   </div>
@@ -201,12 +201,12 @@ export default function Home() {
                   </div>
                   <div className="w-full px-2">
                     <div className="w-full bg-white rounded-md h-20 flex flex-col justify-center px-4">
-                      <h1 className="font-bold text-lg">Point Of Sale - Api</h1>
+                      <h1 className="font-bold text-lg">FiveM Game Scripting</h1>
                       <a
                         href="../../icons/cert/sertifikat_js.pdf"
                         className="underline cursor-pointer hover:text-gray-400 text-gray-70 w-10"
                       >
-                        www.example.com
+                        Game_Scripting
                       </a>
                     </div>
                   </div>
